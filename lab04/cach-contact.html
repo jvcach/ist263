@@ -28,9 +28,6 @@
 
 
         <form action="mailto:jvcach@syr.edu" method="POST">
-            <!-- action mail to is going to send an email of our form data-->
-            <!-- post method is required for mail to action-->
-            <!-- post sends data with website headers-->
 
         <label for="firstname">Type your first name</label>
         <input type="text" name="firstname" id="firstname"> <br>
@@ -40,12 +37,11 @@
         <label for="email">Email</label>
         <textarea name="email" id="email" rows="5" cols="50">
             Type your comments here</textarea> <br>
-        <!-- the only place whitespace matters in default text for text area-->
 
         <input type="checkbox" name="copy" id="copy" value="Yes">
         <label for="copy">Send copy?</label> <br>
 
-        <label for="topic">topic?</label>
+        <label for="subtopic">topic?</label>
         <select name="start" id="start">
             <option value="comment">Comment</option>
             <option value="meeting">Request for a meeting</option>
@@ -53,10 +49,10 @@
         </select> <br>
 
         <input type="submit" value="send email">
+        </form>
    
 
         <br>
-
+    </body>
         &copy; 2021
-        </body>
 </html>
