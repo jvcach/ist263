@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+
+        <h1>Contact</h1>
+
+        <p>
+        Jackelyn Cach <br>
+        Syracuse University iSchool<br>
+        343, Hinds Hall <br>
+        Syracuse, NY 13210
+        </p>
+        
+        <a href="mailto:jvcach@syr.edu">Jackelyn Cach's Email</a> <br>
+        <!-- make sure to always use mailto: to hyperlink email address
+        link --> 
+
+        <a href="https://www.linkedin.com/in/jackelyncach/" target="_blank" > <img src="../images/LI-In-Bug.png" alt="LinkedIn Logo"> My LinkedIn Profile</a> <br>
+        <!-- href is the name of our attribute -->
+        <!-- target defines what tab -->
+        <!-- src is the attribute for image file location-->
+        <!-- alt is text description-->
+        <!-- img src was placed inside of the linkedin hyperlink -->
+
+
+        <form action="mailto:jvcach@syr.edu" method="POST">
+
+        <label for="firstname">Type your first name</label>
+        <input type="text" name="firstname" id="firstname"> <br>
+        <label for="lastname">Type your last name</label>
+        <input type="text" name="lastname" id="lastname"> <br>
+       
+        <label for="email">Email</label>
+        <textarea name="email" id="email" rows="5" cols="50">
+            Type your comments here</textarea> <br>
+
+        <input type="checkbox" name="copy" id="copy" value="Yes">
+        <label for="copy">Send copy?</label> <br>
+
+        <label for="topic">topic?</label>
+        <select name="topic" id="topic">
+            <option value="comment">Comment</option>
+            <option value="meeting">Request for a meeting</option>
+            <option value="other">Other</option>
+        </select> <br>
+
+        <input type="submit" value="send email">
+        </form>
+   
+
+        &copy; 2021
+    </body>
+</html>
