@@ -30,7 +30,9 @@ body{
 }
 /* background color for entire page */
 
-p{background-color: #fff;
+p{
+    width: 400px;
+    background-color: #fff;
     padding: 200px;  
     /* padding is space between content and edge of box */
     margin: 50px;
