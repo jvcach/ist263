@@ -1,0 +1,42 @@
+h1{
+    color: #FF0000
+    /* hex color requires the pound sign*/
+    /* six digits starting with red, then green then blue */
+}
+/* these three selectors are pseudo selectors */
+/* colon separates the selector from its state */
+
+a:link{
+    color: #008000
+}
+
+a:visited{
+    color: #0000FF
+}
+
+a:hover{
+    color: purple;
+    background-color: lightblue
+
+}
+
+.lookdifferent.hover {color: #808080}
+/* above uses a class selector with the pseudo state */
+
+body{
+    background-image: url(images/LI-In-Bug.png) ;
+    background-size: 100px;
+    background-color: beige
+}
+/* background color for entire page */
+
+p{background-color: #fff;
+    padding: 200px;  
+    /* padding is space between content and edge of box */
+    margin: 50px;
+    /* space between the outside of the box and the rest of the content margin */
+    border: 5px solid blue;
+    /* this is a common value */
+    /* width of your box is content width plus border width x2
+    plus margin width x2 plus padding width x2 */
+}
