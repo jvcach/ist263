@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="../lab08/styles.css">
+
+        <style>
+            .part1, .part2 {display: flex}
+            .part2 {padding: 30px;}
+            .map {padding: 40px;}
+            .address {margin: 20px;}
+            .part1, .part2 {margin: 30px;}
+            .part1 {flex: 2; background-color: #FFFFFF; border-radius: 2em; }
+            .part2 {flex: 1; background-color: #FFFFFF; border-radius: 2em; }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href=index.html>Home |</a>
+            <a href=cach-skills.html>Skills |</a>
+            <a href=cach-contact.html>Contact |</a>
+        </nav>
+
+        <h1>Contact</h1>
+
+        <h2>Address</h2>
+
+    <div class="part1">
+            <div class="address">
+
+                <p>
+                Jackelyn Cach <br>
+                Syracuse University iSchool<br>
+                343, Hinds Hall <br>
+                Syracuse, NY 13210
+                </p>
+            </div>
+            
+            <div class="email">
+                <a href="mailto:jvcach@syr.edu">Jackelyn Cach's Email</a> <br>
+            <!-- make sure to always use mailto: to hyperlink email address
+            link --> 
+            </div>
+
+            <div class="logo">
+                <a href="https://www.linkedin.com/in/jackelyncach/" target="_blank" > <img src="../images/LI-In-Bug.png" alt="LinkedIn Logo"> My LinkedIn Profile</a> <br>
+            <!-- href is the name of our attribute -->
+            <!-- target defines what tab -->
+            <!-- src is the attribute for image file location-->
+            <!-- alt is text description-->
+            <!-- img src was placed inside of the linkedin hyperlink -->
+            </div>
+    </div>
+
+    <div class="part2">
+            <div class="form">
+
+                <form action="mailto:jvcach@syr.edu" method="POST">
+
+                <label for="firstname">Type your first name</label>
+                <input type="text" name="firstname" id="firstname"> <br>
+                <label for="lastname">Type your last name</label>
+                <input type="text" name="lastname" id="lastname"> <br>
+            
+                <label for="email">Email</label>
+                <textarea name="email" id="email" rows="5" cols="50">
+                    Type your comments here</textarea> <br>
+
+                <input type="checkbox" name="copy" id="copy" value="Yes">
+                <label for="copy">Send copy?</label> <br>
+
+                <label for="topic">topic?</label>
+                <select name="topic" id="topic">
+                    <option value="comment">Comment</option>
+                    <option value="meeting">Request for a meeting</option>
+                    <option value="other">Other</option>
+                </select> <br>
+
+                <input type="submit" value="send email">
+                </form>
+
+            </div>
+            
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.152508243934!2d-76.13556508491497!3d43.038222599996864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca155555%3A0xc1c69e4f641652c1!2sSyracuse%20University%20iSchool!5e0!3m2!1sen!2sus!4v1617287218807!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    </div>
+
+        &copy; 2021
+    </body>
+</html>
