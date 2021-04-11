@@ -47,7 +47,15 @@ a:link{
     color: #FF7171
 }
 
-/* starting here is the additional styles for the additional code for the source known as floats */
+@media only screen and (max-width: 600px) {
+    nav {background-color: plum;}
+    .sidebar {display:none;}
+    /* display none takes something off the page */
+}
+
+nav{width: 100%;}
+/* media quieres have special stles for certain size screens */
+/* 600px is called a breakpoint */
 
 
 
