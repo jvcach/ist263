@@ -53,9 +53,12 @@ a:link{
     /* display none takes something off the page */
 }
 
-nav{width: 100%;}
-/* media quieres have special stles for certain size screens */
-/* 600px is called a breakpoint */
+@media only screen and (min-width: 920px) {
+
+    nav{width: 100%;}
+
+}
+
 
 
 
