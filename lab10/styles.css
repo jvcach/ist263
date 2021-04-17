@@ -1,0 +1,64 @@
+.site.navigation{
+    background-color: #98ACF8
+
+}
+.site.link{
+   color: #487E95 
+
+}
+
+.site.navigation.hightlight{
+    color: #F7EA00
+}
+
+nav a{
+    background-color: #F39189
+
+}
+
+nav a:hover{
+    background-color: #D3E0EA
+
+}
+
+nav{
+    padding:10px
+
+}
+
+nav {
+    margin-bottom: 30px
+}
+
+
+h1,h2{
+    color: #1687A7
+}
+
+body{
+    background-size: 50px;
+    background-color: #F0E4D7
+}
+
+text{
+    color: #30475E
+}
+a:link{
+    color: #FF7171
+}
+
+@media only screen and (max-width: 600px) {
+    nav {background-color: plum;}
+    .sidebar {display:none;}
+    /* display none takes something off the page */
+}
+
+@media only screen and (min-width: 920px) {
+
+    nav{width: 100%;}
+
+}
+
+
+
+
