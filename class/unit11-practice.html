@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Practice</title>
+        <script>
+          
+            function SayHello() {
+                alert("Hello World");
+                /* onload event in the body tag */
+            }
+            function SecondFunction(){
+                alert("You left this form element");
+
+            }
+
+        </script>
+    </head>
+    <body onload="SayHello();">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum.
+
+        </p>
+
+
+        <h1>Comment Submission</h1>
+        
+        <form onblur="SecondFunction();"  method="POST">
+
+        <label for="firstname">Type your first name</label>
+        <input type="text" name="firstname" id="firstname"> <br>
+
+        <label for="lastname">Type your last name</label>
+        <input type="text" name="lastname" id="lastname"> <br>
+        
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" rows="5" cols="50">
+            Type your comments here</textarea> <br>
+        <!-- the only place whitespace matters in default text for text area-->
+
+        
+
+        <input type="submit" value="Send Comments">
+        
+    </form>
+    </body>
+</html>
