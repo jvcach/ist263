@@ -68,12 +68,12 @@ a:link{
 
 @media only screen and (max-width: 600px) {
     nav {background-color: rgb(109, 11, 109);}
-    span { display:none}
 }
 
 @media only screen and (min-width: 920px) {
 
     nav{width: 100%;}
+    span { display:none}
     nav{display:block}
 
 }
