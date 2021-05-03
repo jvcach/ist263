@@ -80,7 +80,7 @@ a:link{
 }
 
 @media only screen {
-    .span{ display:none}
+    span{ display:none}
 }
 
 
