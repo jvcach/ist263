@@ -71,6 +71,7 @@ a:link{
     span {display:none}
     nav a {width: 100%;}
     nav a {display:block}
+    img {max-width: 100%;}
 }
 
 @media only screen and (min-width: 920px) {
@@ -78,6 +79,7 @@ a:link{
     span {display:none}
     nav a {width: 100%;}
     nav a {display:block}
+    img {max-width: 100%;}
 
 }
 
