@@ -66,18 +66,14 @@ a:link{
     color: #393E46
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
     nav {background-color: rgb(109, 11, 109);}
     span { display:none}
     main {width: 70%; float:left;}
-}
-
-@media only screen and (min-width: 920px) {
-
     nav{width: 100%;}
     nav{display:block}
-
 }
+
 
 
 
