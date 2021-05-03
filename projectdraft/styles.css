@@ -68,6 +68,7 @@ a:link{
 
 @media only screen and (max-width: 600px) {
     nav {background-color: rgb(109, 11, 109);}
+    span { display:none}
     .sidebar {display:none;}
     /* display none takes something off the page */
 }
@@ -79,9 +80,6 @@ a:link{
 
 }
 
-@media only screen {
-    span{ display:none}
-}
 
 
 
