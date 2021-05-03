@@ -63,11 +63,11 @@ text{
     color: #30475E
 }
 a:link{
-    color: #FF7171
+    color: #393E46
 }
 
 @media only screen and (max-width: 600px) {
-    nav {background-color: plum;}
+    nav {background-color: rgb(109, 11, 109);}
     .sidebar {display:none;}
     /* display none takes something off the page */
 }
