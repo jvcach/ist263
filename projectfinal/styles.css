@@ -1,0 +1,100 @@
+#skip-to-content{
+    position: absolute;
+    left:-999px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#skip-to-content:focus{
+    position:absolute;
+    left:10px;
+}
+
+h1 {font-size: 45px;}
+
+h2{font-size: 25px}
+
+
+ul{font-size: 15px;line-height: 25px;}
+
+.site.navigation{
+    background-color:#FFC93C
+
+}
+.site.link{
+   color: #add8e6
+
+}
+
+.site.navigation.hightlight{
+    color: #F7EA00
+}
+
+nav a{
+    background-color:#FFC93C
+
+}
+
+nav a:hover{
+    background-color: #D3E0EA
+
+}
+
+nav{
+    padding:10px
+
+}
+
+nav {
+    margin-bottom: 30px
+}
+
+
+h1,h2,h3{
+    color: #30475E
+}
+
+body{
+    background-size: 35px;
+    background-color: #D3E0EA
+}
+
+text{
+    color: #30475E
+}
+a:link{
+    color: #393E46
+}
+
+@media only screen and (max-width: 600px) {
+    nav {background-color: rgb(109, 11, 109);}
+    span {display:none}
+    nav a {width: 100%;}
+    nav a {display:block}
+    img {max-width: 100%;}
+}
+
+@media only screen and (min-width: 920px) {
+    nav {background-color: rgb(109, 11, 109);}
+    span {display:none}
+    nav a {width: 100%;}
+    nav a {display:block}
+    img {max-width: 100%;}
+
+}
+
+/* this is for the footer for all the pages */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+
+
