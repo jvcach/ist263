@@ -74,6 +74,8 @@ a:link{
     img {max-width: 100%;}
 }
 
+/* display none takes something off the page */
+/* 600px is called a breakpoint */
 
 
 /* this is for the footer for all the pages */
