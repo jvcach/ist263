@@ -10,32 +10,32 @@
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-    </head>
+        <style>
+            body{font-family: 'Merriweather', serif;}
+            img {width: 330px;}
+            .mainphoto {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 450px;
+            }
+            #slideshow-container{
+                background-color: white;
+                width: 1200px;
+                margin: auto;
+            }
+            #photos{margin-right: 100px}
+            #info{padding: 100px;}
+            #thumbnails {width: 840px; margin:auto; padding-top: 20px;}
+            #firstphoto, #secondphoto, #thirdphoto, #fourthphoto, #fifthphoto, #sixthphoto, #seventhphoto
+            {width: 100px}
+            #firstinfo,#secondhinfo,#thirdinfo,#fourthinfo,#fifthinfo,#sixthinfo,#seventhinfo {display: none;}
+            #first,#second,#third,#fourth,#fifth,#sixth,#seventh{display:none;}
+            #photos{float:left;}
+            #clear{clear:both}
+        </style>
 
-    <style>
-        body{font-family: 'Merriweather', serif;}
-        img {width: 330px;}
-        .mainphoto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 450px;
-        }
-        #slideshow-container{
-            background-color: white;
-            width: 1200px;
-            margin: auto;
-        }
-        #photos{margin-right: 100px}
-        #info{padding: 100px;}
-        #thumbnails {width: 840px; margin:auto; padding-top: 20px;}
-        #firstphoto, #secondphoto, #thirdphoto, #fourthphoto, #fifthphoto, #sixthphoto, #seventhphoto
-        {width: 100px}
-        #firstinfo,#secondhinfo,#thirdinfo,#fourthinfo,#fifthinfo,#sixthinfo,#seventhinfo {display: none;}
-        #first,#second,#third,#fourth,#fifth,#sixth,#seventh{display:none;}
-        #photos{float:left;}
-        #clear{clear:both}
-    </style>
+    </head>
     <script>
         function ProductPhotosOff() {
             document.getElementById('first').style.display = 'none';
