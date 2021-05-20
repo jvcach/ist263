@@ -29,11 +29,15 @@
             width: 600px;
             margin: auto;
         }
+        #photos{margin-right: 100px}
         #info{padding: 100px;}
-        #thumbnails {width: 500px; margin:auto; padding-top: 20px; width: 100px;}
-        #photos {clear:both;}
-        #otherinfo {display: none;}
-        #thumbanils {display: none;}
+        #thumbnails {width: 840px; margin:auto; padding-top: 20px;}
+        #firstphoto, #secondphoto, #thirdphoto, #fourthphoto, #fifthphoto, #sixthphoto, #seventhphoto
+        {width: 100px}
+        #firstinfo,#secondhinfo,#thirdinfo,#fourthinfo,#fifthinfo,#sixthinfo,#seventhinfo {display: none;}
+        #first,#second,#third,#fourth,#fifth,#sixth,#seventh{display:none;}
+        #photos{float:left;}
+        #clear{clear:both}
     </style>
     <script>
         function ProductPhotosOff() {
@@ -44,6 +48,13 @@
             document.getElementById('fifthphoto').style.display = 'none';
             document.getElementById('sixthphoto').style.display = 'none';
             document.getElementById('seventhphoto').style.display = 'none';
+            document.getElementById('firstinfo').style.display = 'none';
+            document.getElementById('secondinfo').style.display = 'none';
+            document.getElementById('thirdinfo').style.display = 'none';
+            document.getElementById('fourthinfo').style.display = 'none';
+            document.getElementById('fifthinfo').style.display = 'none';
+            document.getElementById('sixthinfo').style.display = 'none';
+            document.getElementById('seventhinfo').style.display = 'none';
         }
 
         function FirstphotoOn(){
@@ -171,24 +182,22 @@
             </p>
 
             <div id="slideshow-container">
-                <div id="photos">
-                    <div id="thumbnails">
+                    <div id="photos">
                         <img src="../project-media/IMG_7295.jpg" alt="3 skincare products side to side"
-                        class="firstimg" id="firstphoto" onclick="ProductPhotosOff(); FirstphotoOn();">
+                        class="firstimg" id="first">
                         <img src="../project-media/IMG_7296.jpg" alt="2 skincare products side to side; a BHA serum and a retinol cream."
-                        class="secondimg" id="secondphoto" onclick="ProductPhotosOff(); SecondphotoOn();">
+                        class="secondimg" id="second">
                         <img src="../project-media/IMG_7297.jpg" alt="1 skincare product; caffeine eye cream."
-                        class="thirdimg" id="thirdphoto" onclick="ProductPhotosOff(); ThirdphotoOn();">
+                        class="thirdimg" id="third">
                         <img src="../project-media/IMG_7298.jpg" alt="1 skincare product; pink clay pore mask."
-                        class="fourthimg" id="fourthphoto" onclick="ProductPhotosOff(); FourthphotoOn();">
+                        class="fourthimg" id="fourth">
                         <img src="../project-media/IMG_7299.jpg" alt="1 skincare product; sorbet creme moisterizer."
-                        class="fifthimg" id="fifthphoto" onclick="ProductPhotosOff(); FifthphotoOn();">
+                        class="fifthimg" id="fifth">
                         <img src="../project-media/IMG_7300.jpg" alt="1 skincare product; skincare oil bottle."
-                        class="sixthimg" id="sixthphoto" onclick="ProductPhotosOff(); SixthphotoOn();">
+                        class="sixthimg" id="sixth">
                         <img src="../project-media/IMG_7302.jpg" alt="1 skincare product; berry lip sleeping mask."
-                        class="seventhimg" id="seventhphoto" onclick="ProductPhotosOff(); SeventhphotoOn();">
+                        class="seventhimg" id="seventh">
                     </div>
-                </div>
 
                 <div id="info">
                     <div id="firstinfo">
@@ -199,8 +208,6 @@
                             TONYMOLY Poresol Ampoule Serum 
                         </p>
                     </div>
-
-                    <div id="otherinfo">
                         <div id="secondinfo">
                             <h2>Second Photo</h2>
                             <p>
@@ -238,8 +245,25 @@
                                 Picture of one skincare product. LANEIGE’s Berry Lip Sleeping Mask
                             </p>
                         </div>
+                </div>
+            </div>
 
-                    </div>
+                <div id="clear"></div>
+                <div id="thumbnails">
+                    <img src="../project-media/IMG_7295.jpg" alt="3 skincare products side to side"
+                    class="firstimg" id="firstphoto" onclick="ProductPhotosOff(); FirstphotoOn();">
+                    <img src="../project-media/IMG_7296.jpg" alt="2 skincare products side to side; a BHA serum and a retinol cream."
+                    class="secondimg" id="secondphoto" onclick="ProductPhotosOff(); SecondphotoOn();">
+                    <img src="../project-media/IMG_7297.jpg" alt="1 skincare product; caffeine eye cream."
+                    class="thirdimg" id="thirdphoto" onclick="ProductPhotosOff(); ThirdphotoOn();">
+                    <img src="../project-media/IMG_7298.jpg" alt="1 skincare product; pink clay pore mask."
+                    class="fourthimg" id="fourthphoto" onclick="ProductPhotosOff(); FourthphotoOn();">
+                    <img src="../project-media/IMG_7299.jpg" alt="1 skincare product; sorbet creme moisterizer."
+                    class="fifthimg" id="fifthphoto" onclick="ProductPhotosOff(); FifthphotoOn();">
+                    <img src="../project-media/IMG_7300.jpg" alt="1 skincare product; skincare oil bottle."
+                    class="sixthimg" id="sixthphoto" onclick="ProductPhotosOff(); SixthphotoOn();">
+                    <img src="../project-media/IMG_7302.jpg" alt="1 skincare product; berry lip sleeping mask."
+                    class="seventhimg" id="seventhphoto" onclick="ProductPhotosOff(); SeventhphotoOn();">
                 </div>
             </div>
 
